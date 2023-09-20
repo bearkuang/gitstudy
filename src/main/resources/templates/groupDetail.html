@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script
+            src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.min.js"></script>
+    <script
+            src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    </script>
+    <style>
+        div.scroller {
+            height: 800px;
+            overflow-y: scroll;
+            scrollbar-color: pink lightblue;
+            margin-left: 20px;
+        }
+
+        .custom-btn {
+            width: 370px;
+            margin: 15px 0;
+        }
+    </style>
+</head>
+<body>
+<nav class="navbar navbar-expand-md bg-light navbar-light"
+     style="border-bottom: 1px solid gray;">
+    <a class="navbar-brand" style="color: purple;" href="/">렛츠코딩</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link" href="/board/saveForm">스터디
+                모집</a></li>
+            <li class="nav-item"><a class="nav-link" href="/board/saveForm">스터디
+                그룹</a></li>
+        </ul>
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link"
+                                    href="/user/updateForm">마이페이지</a></li>
+            <li class="nav-item"><a class="nav-link" href="/logout">로그아웃</a></li>
+        </ul>
+    </div>
+</nav>
+<br/>
+<!--body start-->
+<div class="container-fluid">
+    <div class="row">
+            <!-- list -->
+            <div class="col-sm-8">
+                <div class="scroller">
+                    <table class="table table-hover">
+                        <thead>
+                        <tr>
+                            <th>작성자</th>
+                            <th>제목</th>
+                            <th>내용</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>Kim</td>
+                            <td>파이팅</td>
+                            <td>오늘도 점심 고민을 하면서 하루의 시작을..</td>
+                        </tr>
+                        <tr>
+                            <td>Lee</td>
+                            <td>오늘의 회고</td>
+                            <td>이러이러한 걸 배웠고...</td>
+                        </tr>
+                        <tr>
+                            <td>Park</td>
+                            <td>참회록..</td>
+                            <td>오늘도 반성한다....</td>
+                        </tr>
+                        <tr>
+                            <td>Kim</td>
+                            <td>파이팅</td>
+                            <td>오늘도 점심 고민을 하면서 하루의 시작을..</td>
+                        </tr>
+                        <tr>
+                            <td>Lee</td>
+                            <td>오늘의 회고</td>
+                            <td>이러이러한 걸 배웠고...</td>
+                        </tr>
+                        <tr>
+                            <td>Park</td>
+                            <td>참회록..</td>
+                            <td>오늘도 반성한다....</td>
+                        </tr>
+                        <tr>
+                            <td>Kim</td>
+                            <td>파이팅</td>
+                            <td>오늘도 점심 고민을 하면서 하루의 시작을..</td>
+                        </tr>
+                        <tr>
+                            <td>Lee</td>
+                            <td>오늘의 회고</td>
+                            <td>이러이러한 걸 배웠고...</td>
+                        </tr>
+                        <tr>
+                            <td>Park</td>
+                            <td>참회록..</td>
+                            <td>오늘도 반성한다....</td>
+                        </tr>
+                        <tr>
+                            <td>Kim</td>
+                            <td>파이팅</td>
+                            <td>오늘도 점심 고민을 하면서 하루의 시작을..</td>
+                        </tr>
+                        <tr>
+                            <td>Lee</td>
+                            <td>오늘의 회고</td>
+                            <td>이러이러한 걸 배웠고...</td>
+                        </tr>
+                        <tr>
+                            <td>Park</td>
+                            <td>참회록..</td>
+                            <td>오늘도 반성한다....</td>
+                        </tr>
+                        <tr>
+                            <td>Kim</td>
+                            <td>파이팅</td>
+                            <td>오늘도 점심 고민을 하면서 하루의 시작을..</td>
+                        </tr>
+                        <tr>
+                            <td>Lee</td>
+                            <td>오늘의 회고</td>
+                            <td>이러이러한 걸 배웠고...</td>
+                        </tr>
+                        <tr>
+                            <td>Park</td>
+                            <td>참회록..</td>
+                            <td>오늘도 반성한다....</td>
+                        </tr>
+                        <tr>
+                            <td>Kim</td>
+                            <td>파이팅</td>
+                            <td>오늘도 점심 고민을 하면서 하루의 시작을..</td>
+                        </tr>
+                        <tr>
+                            <td>Lee</td>
+                            <td>오늘의 회고</td>
+                            <td>이러이러한 걸 배웠고...</td>
+                        </tr>
+                        <tr>
+                            <td>Park</td>
+                            <td>참회록..</td>
+                            <td>오늘도 반성한다....</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div>
+                    <input type="text" value="th:value=*{createDate} ~ *{endDate}" readonly style="width: 350px; text-align: center;" />
+                    <br/><br/><br/>
+                    <h2>groupName</h2>
+                    <br/><br/><br/>
+                    <button type="button" class="btn btn-secondary custom-btn">회고 작성</button>
+                    <br/>
+                    <button type="button" class="btn btn-secondary custom-btn">출석</button>
+                </div>
+                <div>
+                    <!-- 버튼을 클릭하면 모달을 띄우도록 설정 -->
+                    <button type="button" class="btn btn-secondary custom-btn" data-toggle="modal" data-target="#myModal">
+                        그룹 인원 보기
+                    </button>
+
+                    <!-- 모달 창 -->
+                    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                         aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="studyGroupMember">참여 중인 인원</h5>
+                                    <button type="button" class="close" data-dismiss="modal">×</button>
+                                </div>
+                                <div class="modal-body">
+                                    studyGroupMember.userId
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">확인</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+             </div>
+        </div>
+    </div>
+​
+<br/>
+<footer class="bg-light text-center py-3">
+    <p>Created by 팀명</p>
+    <p>📞 02-1234-5678</p>
+    <p>🏴 서울 서초구 효령료 335</p>
+</footer>
+​
+</body>
+</html>
